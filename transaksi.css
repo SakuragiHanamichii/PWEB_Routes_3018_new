@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+}
+.col-md-6{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.col-md-6 input{
+    width: 200px;
+}
+.col-md-12{
+    margin-left: 540px;
+    margin-top: -35px;
+}
+.col-md-12 input{
+    width: 200px;
+}
+.col-13{
+    margin-left: 273px;
+    margin-top: 50px;
+}
+.col-13 input{
+    width: 200px;
+}
+.col-md-2{
+    margin-top: -105px;
+    margin-left: 200px;
+    display: flex;
+}
+.col-md-2 input{
+    width: 200px;
+}
+.col-md-4{
+    margin-top: 50px;
+    margin-left: 565px;
+    width: 250px;
+}
+.col-md-7{
+    margin-top: -70px;
+    margin-left: 565px;
+    width: 250px;
+}
+.dating{
+    margin-top: 80px;
+    margin-left: 280px;
+}
+.dating input{
+    width: 535px;
+}
+.col-12 .button{
+    margin-left: 260px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+.col-12{
+    margin-left: 280px;
+}
+.foto input{
+    margin-top: 40px;
+    margin-left: 280px;
+}

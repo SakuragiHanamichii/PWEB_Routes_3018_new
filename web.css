@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.topbar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+.topbar a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -30px;
+}
+.topbar a:hover{
+    background-color: #FB8F1D;
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+}
+.navlink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-left: -1760px;
+    margin-top: -40px;
+}
+.logo h1{
+    color: #ffb566;
+    padding: -10px;
+}
+.gambar1 img{
+    margin-left: -240px;
+    display: flex;
+    margin-top: -40px;
+}
+.tombol button{
+    background-color: #FB8F1D;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: #FB8F1D;
+    width: 134px;
+    height: 44px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.tombol {
+    margin-left: 1730px;
+    margin-top: -78px;
+}
+.tombol2 button{
+    border-color: #FB8F1D;
+    color: #FB8F1D;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 134px;
+    height: 44px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.tombol2 {
+    margin-left: 1580px;
+    margin-top: -43px;
+}
+.gambar img{
+    display: flex;
+    margin-left: 1100px;
+    margin-top: 150px;
+}
+.deskripsi h2 {
+    color: coral;
+    font-size: 60px;
+    margin-top: -320px;
+    display: flex;
+    margin-left: 300px;
+
+}
+.deskripsi h3 {
+    color: rgb(128, 128, 128);
+    display: flex;
+    margin-top: -220px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.deskripsi h4 {
+    color: black;
+    display: flex;
+    margin-top: 185px;
+    margin-left: 300px;
+    font-size: 20px;
+}
