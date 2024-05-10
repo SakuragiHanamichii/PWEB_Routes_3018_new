@@ -13,6 +13,7 @@ $data3 = read('SELECT * FROM transaksi')
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="profile.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="topbar">
@@ -29,9 +30,7 @@ $data3 = read('SELECT * FROM transaksi')
             <img src="circle.png" alt="">
         </div>
     </div>
-    <div class="profileimg">
-        <a href="index.php"> <img src="man.png" alt=""></a>
-    </div>
+    <ul class="navbar-nav navbar-right">
     <div class="box">
         <div class="borderleft">
             <h6 id="order">Order Masuk©</h6>
@@ -52,7 +51,6 @@ $data3 = read('SELECT * FROM transaksi')
             <h2 id="bayar">Transaksi</h2>
             <div class="btn-content">
                 <button class="btn-tambah" id="btn-tambah" onclick="window.location.assign('transaksi.php')">Tambah</button>
-
             </div>
         <table class="table">
             <thead>

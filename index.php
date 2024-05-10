@@ -22,13 +22,24 @@
             <img src="circle.png" alt="">
         </div>
     </div>
-    <div class="tombol">
-        <form action="login.php" class="masuk"></form>
-            <a href ="login.php"><button id="login">Login</button></a>
-    </div>
-    <div class="tombol2">
-        <button id="register">Register</button>
-    </div>
+<div class="tombol">
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo  '<a href="logout.php" class="logout_login">
+        <i class="fas fa-sign-out-alt"></i> Logout
+      </a>';
+
+    } else {
+        echo   '<a href="register.php" class="dropdown-item has-icon">
+        <i class="fas fa-user-plus"></i> Buat Akun
+      </a>';
+      echo   '<a href="login.php" class="logout_login">
+      <i class="fas fa-user-plus"></i> Login
+    </a>';
+    }
+    ?>
+</div>
     <div class="container">
         <div class="gambar">
             <img src="game.png" alt="">
