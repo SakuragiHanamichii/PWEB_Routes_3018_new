@@ -1,4 +1,6 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /mvc-por/
+RewriteRule ^index\\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /mvc-por/index.php [L]
